@@ -1,0 +1,848 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #f1f1f1;
+
+}
+/* this is header section  */
+.header{
+    width: 100%;
+    background-color: #ffffff;
+    height: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: sticky !important;
+    top: 0;
+}
+.headerleft{
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+.headerleft a{
+    margin-left: 30px;
+}
+.headerleft img{
+    height: 100%;
+    cursor: default;
+    opacity: 80%;
+}
+.headerleft img:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+.headerright{
+    float: left;
+    width: 85%;
+    height: 100%;
+
+}
+/* this is nabbar section  */
+.navbar{
+    height: 100%;
+    width: 80%;
+    float: left;
+    
+}
+.navbar ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #232323;
+    padding: 50.6px 40px;
+    
+
+}
+.navbar a:hover{
+    color: #FF5600;
+    transition: 0.5s;
+    border-bottom: 10px solid #FF5600;
+    border-radius: 10px;
+}
+.order{
+    height: 100%;
+    width: 20%;
+    float: left;
+    padding: 0px 25px;
+}
+.order button{
+    text-align: center;
+    margin: 30px 10px;
+    padding: 18px 34px;
+    font-size: 18px;
+    border: 1px solid #FF5600;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+
+}
+.order button:hover{
+    color: #ffffff;
+    background-color: #FF5600;
+    transition: 0.5s;
+}
+/* this is dropdown */
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    padding: 0;
+    width: 100%;
+    height: max-content;
+    display: none;
+    background-color: #f1f1f1;
+}
+.dropdown li{
+    display: block !important;
+    float: left;
+    text-align: center;
+    padding: 0;
+   
+}
+.dropdown a{
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #232323;
+    padding: 30px 10px 20px 30px;
+
+}
+.dropdown a:hover{
+    color: #FF5600;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 0;
+    transition: 0;
+}
+.menulist:hover ul{
+    transition: all;
+    display: inline-block !important;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* this is menu section  */
+.menuhead{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 300px;
+}
+.menuimg{
+    width: 20%;
+    height: 100%;
+    float: right;
+    display: inline;
+}
+.menuimg img{
+    height: 100%;
+    float: right;
+    cursor: none;
+}
+.menuheadleft{
+    width: 80%;
+    display: inline;
+    text-align: center;
+    height: 100%;
+    display: inline;
+    float: left;
+    color: #232323;
+    padding: 96px 70px 96px 400px;
+}
+.menuheadleft p{
+    font-size: 20px;
+}
+.menuheadleft h2{
+    margin: 20px;
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+
+/* this is offfermenu */
+.offermenu{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.offermenu li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+.offermenu a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color: #232323;
+    color: #232323;
+    background-color: #9696960a;
+    border-top: 2px solid #3232324d;
+    border-radius: 5px;
+}
+.offermenu a:hover{
+    color: #ff55008c;
+    transition: 0.3s;
+    border-top: 1px solid #FF5600;
+    border-radius: 5px;
+    background-color: #9696963f;
+
+}
+
+/* this is offerfood */
+.offerfood{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+.offerfoodl{
+    height: 100%;
+    float: left;
+    width: 33.33%;
+    background-image:linear-gradient(#13121225,#0000002f), url(../img/offerfood1.jpg);
+    background-size: cover;
+    padding: 80px 0;
+}
+.offerfoodm{
+    height: 100%;
+    float: left;
+    width: 33.33%;
+    background-image:linear-gradient(#13121225,#0000002f), url(../img/offerfood2.jpg);
+    background-size: cover;
+    padding: 80px 0;
+}
+.offerfoodr{
+    height: 100%;
+    float: left;
+    width: 33.34%;
+    
+    
+}
+.offerfoodt{
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(#13121225,#0000002f), url(../img/offerfood7.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    
+}
+.offerfoodb{
+    width: 100%;
+    height: 60%;
+    background-image: linear-gradient(#13121225,#0000002f), url(../img/offerfood8.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    
+}
+
+.offerfood h4{
+    color: #FF5600;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.offerfood h2{
+    color: #FF5600;
+    font-size: 50px;
+    padding-bottom: 30px;
+
+}
+.offerfood p{
+    color: #000000;
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+.offerfood button{
+    margin-top: 100px;
+    text-align: center;
+    padding: 18px 34px;
+    font-size: 18px;
+    border: 1px solid #FF5600;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #ffffff;
+
+}
+.offerfood button:hover{
+    color: #ffffff;
+    background-color: #FF5600;
+    transition: 0.5s;
+}
+
+.offerfoodt h4{
+
+    padding-bottom: 5px !important;
+}
+.offerfoodt h2{
+
+    padding-bottom: 0px !important;
+
+}
+.offerfoodt p{
+
+    padding-bottom: 10px !important;
+}
+.offerfoodt button{
+    margin-top: 1px !important ;
+}
+.offerfoodb h4{
+    padding-bottom: 20px !important;
+}
+.offerfoodb h2{
+    padding-bottom: 20px !important;
+
+}
+.offerfoodb p{
+
+    padding-bottom: 20px !important;
+}
+.offerfoodb button{
+    margin-top: 10px !important ;
+}
+.mmmm{
+    display: none;
+    
+}
+.offerfoodl:hover .mmmm{
+    display: block;
+    
+}
+.offerfoodm:hover .mmmm{
+    display: block;
+}
+.offerfoodt:hover .mmmm{
+    display: block;
+}
+.offerfoodb:hover .mmmm{
+    display: block;
+}
+/* this is blog section  */
+.blog{
+    height: 800px;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding-bottom: 20px;
+    border-bottom: 3px double red;
+}
+.blog h2{
+    text-align: center;
+    color: #FF5600;
+    padding: 40px;
+    font-size: 50px;
+}
+.blog1{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.blog1img{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+.blog1 img{
+    width: 100%;
+   height: 200px;
+   border-left: 5px solid #ff5500ce;
+   border-right: 5px solid #ff5500ce;
+   border-top: 5px solid #ff5500ce;
+   border-radius: 4px;
+}
+.blog1p{
+    border-bottom: 3px solid #d16d6db9;
+    border-right: 3px solid #d16d6db9;
+    border-left: 3px solid #d16d6db9;
+    width: 100%;
+    height: 380px;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+.blog1 h4{
+    text-align: center;
+}
+
+
+
+
+.blog2{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.blog2img{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+
+.blog2 img{
+    width: 100%;
+   height: 200px;
+   border-left: 5px solid #ff5500ce;
+   border-right: 5px solid #ff5500ce;
+   border-top: 5px solid #ff5500ce;
+   border-radius: 4px;
+}
+.blog2p{
+    border-bottom: 3px solid #d16d6db9;
+    border-right: 3px solid #d16d6db9;
+    border-left: 3px solid #d16d6db9;
+    width: 100%;
+    height: 380px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.blog2 h4{
+    text-align: center;
+}
+
+
+
+
+.blog3{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.blog3img{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+
+.blog3 img{
+    width: 100%;
+   height: 200px;
+   border-left: 5px solid #ff5500ce;
+   border-right: 5px solid #ff5500ce;
+   border-top: 5px solid #ff5500ce;
+   border-radius: 4px;
+   
+}
+.blog3p{
+    border-bottom: 3px solid #d16d6db9;
+    border-right: 3px solid #d16d6db9;
+    border-left: 3px solid #d16d6db9;
+    width: 100%;
+    height: 380px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.blog3 h4{
+    text-align: center;
+}
+
+
+
+
+
+.blog4{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.blog4img{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+
+.blog4 img{
+    width: 100%;
+   height: 200px;
+   border-left: 5px solid #ff5500ce;
+   border-right: 5px solid #ff5500ce;
+   border-top: 5px solid #ff5500ce;
+   border-radius: 4px;
+}
+.blog4p{
+    border-bottom: 3px solid #d16d6db9;
+    border-right: 3px solid #d16d6db9;
+    border-left: 3px solid #d16d6db9;
+    width: 100%;
+    height: 380px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.blog4 h4{
+    text-align: center;
+}
+.blog h4{
+    color: #FF5600;
+    font-size: 20px;
+}
+/* this is about section  */
+.about{
+    width: 100%;
+    height: 1700px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.abouthead{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.abouthead h2{
+    font-size: 45px;
+}
+.goodfood{
+    width: 100%;
+    height: 500px;
+}
+.goodfood .left{
+    float: left;
+    height: 100%;
+    width: 45%;
+}
+.goodfood .left img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.goodfood .right{
+    float: left;
+    height: 100%;
+    width: 55%;
+    color: #232323;
+    padding: 70px 90px;
+}
+.goodfood .right h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.goodfood .right h1{
+    padding-bottom: 20px;
+}
+.goodfood .right p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.goodfood .right a{
+    text-decoration: none;
+    color: #0283fc;
+    padding: 10px;
+}
+.goodfood .right a:hover{
+    background-color: #0283fc;
+    color: #ffffff;
+    border: 2px solid #232323;
+    border-radius: 5px;
+}
+/* about chef  */
+.chef{
+    width: 100%;
+    height: 500px;
+}
+.chef .left{
+    width: 60%;
+    float: left;
+    display: inline;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+.chef .left h4{
+    color: #232323;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.chef .left h1{
+    color: #232323;
+    padding-top: 8px;
+}
+.chef .left p{
+    padding-top: 8px;
+    line-height: 25px;
+    word-spacing: 6px;
+    color: #232323;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.left2 .left2l{
+    width: 50%;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+.left2r{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.left2 i{
+    padding: 20px 20px 5px 30px;
+    color: #232323;
+}
+.left2 p{
+    color: #232323;
+    font-size: 18px;
+}
+.chef .right{
+
+    width: 40%;
+    float: right;
+    
+}
+.chef .right img{
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+}
+/* about cooking */
+.cook{
+    width: 100%;
+    display: block;
+}
+.cookl{
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+}
+.cookl img{
+    width: 100%;
+    background-size: cover;
+}
+.cookr{
+    width: 50%;
+    float: left;
+    margin-top: 18px;
+    padding-left: 30px;
+    padding-bottom: 58px;
+    padding-top: 80px;
+    color: #232323;
+}
+.cookr h4{
+    font-size: 20px;
+}
+.cookr h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.cookr p{
+    font-size: 18px;
+    line-height: 25px;
+    word-spacing: 7px;
+    padding-bottom: 20px;
+}
+.cookr a{
+    text-decoration: underline;
+    color: #232323;
+    font-size: 18px;
+}
+.cookr a:hover{
+    padding: 10px;
+    background-color: #0283fc;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+/* this is contact section  */
+.contact{
+    width: 100%;
+    padding: 20px 200px !important;
+    height: 800px;
+}
+.contacthead h1{
+    text-align: center;
+    color: #232323;
+    font-size: 45px;
+}
+.contactb{
+    margin-top: 100px;
+    width: 100%;
+    padding: 0px 200px !important;
+}
+.contactb h1{
+    color: #232323;
+    padding: 20px 0px;
+}
+.contactleft{
+    float: left;
+    width: 75%;
+    padding-right: 50px;
+}
+
+.contactleft form textarea,input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.contactleft input{
+    height: 50px;
+}
+
+.contactleft .submit{
+    border: 2px solid #FF5600;
+    padding: 15px !important;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contactleft .submit:hover{
+    background-color: #FF5600;
+    color: #FFFFFF;
+}
+
+
+.contactright{
+    float: left;
+    width: 25%;
+}
+.contactright i{
+    color: #515151;
+    font-size: 25px;
+    margin-right: 10px;
+    display: inline;
+}
+.contactright h3{
+    font-size: 22px;
+}
+.contactright p{
+    font-size: 15px;
+    color: #232323;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.phone,.message{
+    margin-top: 50px;
+}
+/* this is footer section  */
+footer{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(#101010f2,#101010f2), url(../img/cooking.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 150px;
+}
+.foottop{
+    width: 100%;
+    height: 70%;
+    padding-top: 20px;
+}
+.foottop .top1{
+    width: 30%;
+    float: left;
+}
+.top1 img{
+    width: 150px;
+    height: 150px;
+}
+.foottop .top2{
+    width: 20%;
+    float: left;
+    
+}
+.top2 h3{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.top2 a{
+    display: block;
+    color: #515151;
+    text-decoration: none;
+    margin-bottom: 18px;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+.top2 a:hover{
+    padding-left: 10px;
+    color: #FF5600;
+}
+.foottop .top3{
+    width: 20%;
+    float: left;
+    
+}
+.top3 h3{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.top3 a{
+    display: block;
+    color: #515151;
+    text-decoration: none;
+    margin-bottom: 18px;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+.top3 a:hover{
+    padding-left: 10px;
+    color: #FF5600;
+}
+.foottop .top4{
+    width: 30%;
+    float: left;
+}
+.top4 h3{
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.top4 img{
+    width: 100px;
+    height: 100px;
+    
+}
+.btmleft p{
+   
+    color: #717171;
+    font-size: 20px;
+}
+.btmleft{
+    padding: 10px;
+    width: 60%;
+    float: left;
+}
+.btmleft p a{
+    text-decoration: none;
+    font-size: 28px;
+    margin-left: 15px;
+    color: #FF5600;
+}
+.btmleft p i{
+    color: #FF5600;
+}
+.btmright{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+.btmright p{
+    float: right;
+    font-size: 20px;
+    color: #ffffffff;
+}
+.btmright p i{
+    margin-left: 20px;
+    color: #717171;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btmright p i:hover{
+    color: #ffffffff;
+}
